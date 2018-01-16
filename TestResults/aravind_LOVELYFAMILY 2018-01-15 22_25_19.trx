@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="deb99580-1ac1-4dcd-9e00-977e4c4fc19f" name="aravind@LOVELYFAMILY 2018-01-15 22:25:19" runUser="LOVELYFAMILY\aravind" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e72deb4f-8e32-400e-a7a2-ad07fc5c72ee">
+    <Deployment runDeploymentRoot="aravind_LOVELYFAMILY 2018-01-15 22_25_19">
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\ElectronicColorCodeCalculator\bin\ElectronicColorCodeCalculator.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-01-15T22:25:19.0336951-06:00" queuing="2018-01-15T22:25:21.2541710-06:00" start="2018-01-15T22:25:21.4729393-06:00" finish="2018-01-15T22:25:23.7774686-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateOhmValueTest" storage="c:\users\aravind\desktop\project\electroniccolorcodecalculator\electroniccolorcodecalculator.tests\bin\debug\electroniccolorcodecalculator.tests.dll" id="70de896c-32b8-3491-4a33-fbd066de66d7">
+      <Execution id="87aeabe3-8979-4e8f-8476-b977d431d83b" />
+      <TestMethod codeBase="C:/Users/aravind/Desktop/Project/ElectronicColorCodeCalculator/ElectronicColorCodeCalculator.Tests/bin/Debug/ElectronicColorCodeCalculator.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ElectronicColorCodeCalculator.Tests.OhmValueCalculatorTest, ElectronicColorCodeCalculator.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateOhmValueTest" />
+      <AspNet webSiteUrl="http://localhost:50215/">
+        <Host pathToWebApp="C:\Users\aravind\Desktop\Project\ElectronicColorCodeCalculator\ElectronicColorCodeCalculator" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="70de896c-32b8-3491-4a33-fbd066de66d7" executionId="87aeabe3-8979-4e8f-8476-b977d431d83b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="87aeabe3-8979-4e8f-8476-b977d431d83b" testId="70de896c-32b8-3491-4a33-fbd066de66d7" testName="CalculateOhmValueTest" computerName="LOVELYFAMILY" startTime="2018-01-15T22:25:21.7541742-06:00" endTime="2018-01-15T22:25:23.5274691-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87aeabe3-8979-4e8f-8476-b977d431d83b">
+      <Output>
+        <ErrorInfo>
+          <Message>Could not connect to the Web server for page 'http://localhost:50215/'. The remote server returned an error: (404) Not Found.. Check that the Web server is running and visible on the network and that the page specified exists.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
